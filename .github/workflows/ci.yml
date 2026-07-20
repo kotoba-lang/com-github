@@ -19,3 +19,4 @@ jobs:
           cli: latest
       - run: clojure -M:test
       - run: clojure -M:lint
+      - run: clojure -M:harness fixtures/demo.edn kotoba-lang demo
